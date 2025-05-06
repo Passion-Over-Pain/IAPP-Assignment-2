@@ -49,5 +49,5 @@ def start_server():
                     log_event(f"Unknown message received: {data}")
 
 
-# if __name__ == "__main__":
+# if __name__ == "__main__": To restrict the script from running when imported
 start_server()
