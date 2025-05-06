@@ -1,0 +1,5 @@
+Push Buttons → Digital Inputs (e.g., D0 and D1)
+
+Doors → Digital Outputs (e.g., D2 and D3)
+
+LEDs → Digital Outputs (e.g., D4 and D5)
