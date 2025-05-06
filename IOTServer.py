@@ -1,6 +1,3 @@
-# IoT.py
-# Names: [Your Full Names Here]
-# Student Numbers: [Student Numbers Here]
 
 import socket
 from datetime import datetime

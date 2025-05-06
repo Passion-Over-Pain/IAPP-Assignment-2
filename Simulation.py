@@ -2,14 +2,14 @@
 import socket
 import time
 
-HOST = 'localhost'  # Change to the server's IP if testing on a real network
-PORT = 6000         # Match the port from your IoT.py
+HOST = 'localhost'  # Run on the current development environment
+PORT = 6000         # Exact same Port number as IOTServer to ensure port communication
 
 def send_message(message):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((HOST, PORT))
         s.send(message.encode())
-        print(f"[SENT] {message}")
+        print(f"[SENT] {message}") #Notifying message has been sent on the terminal
 
 # 1. Staff enters
 send_message("ENTRY")
