@@ -32,7 +32,7 @@ class MyDevice:
         return self.host == host and self.port == port
 
     def __str__(self):
-        return "Device: {0} - Connected IP: {1} Connected Port: {2} State: {3}".format(self.name, self.host, self.port, self.value)
+        return "Device: {0} - Connected IP: {1} Connected Port: {2}".format(self.name, self.host, self.port)
 
 # Handle new connections
 def accept_wrapper(sock):
@@ -115,10 +115,13 @@ def start_server():
 
             # Print connected devices and their current states
             print("-" * 50)
-            print("Current Connected Devices: ")
-            for current in IoT_devices:
-                if not current.name == "No device name":
-                    print(current)
+            if len(IoT_devices) > 0:
+                print("Current Connected Devices: ")
+                for current in IoT_devices:
+                    if not current.name == "No device name":
+                        print(current)
+            else:
+                print("No devices connected.")
 
 # Run the server
 if __name__ == "__main__":
