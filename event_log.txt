@@ -1,7 +1,0 @@
-2025-05-07 09:56:07, Staff member entered the building. Staff count: 1
-2025-05-07 11:03:05, Staff member entered the building. Staff count: 1
-2025-05-07 11:03:20, Staff member entered the building. Staff count: 2
-2025-05-12 19:26:11, EMERGENCY triggered! Staff count reset to zero. Staff count: 0
-2025-05-12 19:28:21, Staff member entered the building. Staff count: 1
-2025-05-12 19:28:40, Staff member entered the building. Staff count: 2
-2025-05-12 19:28:49, EMERGENCY triggered! Staff count reset to zero. Staff count: 0
