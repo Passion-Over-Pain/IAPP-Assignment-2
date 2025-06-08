@@ -1,4 +1,4 @@
-# Applied Programming: Access Control and Automation System
+# Applied Programming: Automation System
 
 ## Table of Contents
 
