@@ -33,30 +33,34 @@ The overall goal is to demonstrate how IoT solutions can be used to automate bui
 This project was completed by the following group members:
 
 - **Jasmin Storm**  
-  GitHub Profile: [Jasmin's GitHub](https://github.com/Storm-3)  
-  ![Jasmin Storm](https://github.com/Storm-3.png)
+  <img src="https://github.com/Storm-3.png" width="100" /><br>
+   GitHub Profile: [Jasmin's GitHub](https://github.com/Storm-3)  
 
 - **Juanette Viljoen**  
-  GitHub Profile: [Juanette's GitHub](https://github.com/JuanetteRViljoen)  
-  ![Juanette Viljoen](https://github.com/JuanetteRViljoen.png)
+  <img src="https://github.com/JuanetteRViljoen.png" width="100" /><br>
+   GitHub Profile: [Juanette's GitHub](https://github.com/JuanetteRViljoen)  
 
 - **Tinotenda Mhedziso**  
-  GitHub Profile: [Tinotenda's GitHub](https://github.com/Passion-Over-Pain)  
-  ![Tinotenda Mhedziso](https://github.com/Passion-Over-Pain.png)
+  <img src="https://github.com/Passion-Over-Pain.png" width="100" /><br>
+  GitHub Profile: [Tinotenda's GitHub](https://github.com/Passion-Over-Pain)
 
+<br>
+<br>
+  Each member contributed to different parts of the project, including the Python server, Packet Tracer simulation, and overall system design.
 ---
 
-Each member contributed to different parts of the project, including the Python server, Packet Tracer simulation, and overall system design.
+
 
 
 
 ## Project-Structure
 ```bash
 IAPP-Assignment-2/
-├── README.md                  # Project Documentation
-├── IOTServer.py               # Python TCP server script
+├── README.md               # Project Documentation
+├── IOTServer.py            # Python TCP server script
 ├── IOTDevices.pkt          # Packet Tracer simulation file
 ├── event_log.txt           # Generated log file of system events
+├── LICENSE                 # General use agreement
 ```
 
 
@@ -76,6 +80,8 @@ Clone or download the project files from the repository. The folder should conta
 - `IOTServer.py`
 - `IOTDevices.pkt`
 - `README.md`
+- `LICENSE`
+- `event_log.txt`
 
 Unzip the folder if downloaded as a `.zip` archive.
 
@@ -377,7 +383,7 @@ The **Packet Tracer Setup** involves configuring the simulation environment and 
   If no events are logged in the terminal or log file, double-check the TCP server's IP and port settings in both the Python script and the Packet Tracer devices.
 
 ## License
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file in the repository.
+This project is licensed under the Apache License. For more details, please refer to the [LICENSE](LICENSE) file in the repository.
 
 ---
 
